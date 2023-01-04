@@ -7,34 +7,26 @@
 header {
     width: 100%;
     text-align: center;
-    border-bottom: 1px solid #333;
-}
-
-header .header-text {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-nav {
-    margin-bottom: 50px;
+    padding: 15px 0;
     border-bottom: 1px solid #333;
 }
 
 .nav-list {
-    margin: 15px 0;
+    padding: 15px 0;
     text-align: center;
+    border-bottom: 1px solid #333;
 }
 
 .nav-list-item {
+    list-style: none;
     display: inline-block;
     margin: 0 20px;
 }
 
 .flex-box {
     width: 800px;
-    margin: 0 auto 50px;
+    margin: 50px auto;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
 }
 
